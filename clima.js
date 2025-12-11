@@ -1,9 +1,4 @@
-   // --- CONFIGURACIÓN ---
-        // ¡IMPORTANTE! Los estudiantes deben obtener su propia API Key gratuita.
-        // 1. Ir a https://openweathermap.org/
-        // 2. Crear una cuenta gratuita.
-        // 3. Ir a la sección "API keys" y copiar la clave.
-        const apiKey = 'b0ce3e6ef305fd9802a99fbef97fc648'; // <--- PEGA TU API KEY AQUÍ
+ 
 
         // --- ELEMENTOS DEL DOM ---
         // Obtenemos referencias a los elementos HTML que vamos a manipular.
@@ -105,4 +100,5 @@
             weatherResult.classList.add('hidden');
             welcomeMessage.classList.add('hidden');
             loader.classList.remove('hidden');
+
         }
